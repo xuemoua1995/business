@@ -1,18 +1,38 @@
-<script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"
-></script>
-<script>
-  $(function () {
-    $("#header").load("header.html");
-    $("#footer").load("footer.html");
-  });
-</script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&amp;family=Kanit:wght@400;500;600;700&amp;family=Londrina+Outline&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/css/all.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/odometer-theme-minimal.min.css" />
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <link rel="stylesheet" href="./css/all.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+  <body
+    class="bg-[#f9f8f4] text-[#555555] text-[17px] leading-[27px] font-[Kanit]"
+  >
+    <!--topbar-->
 
-<!-- topbar -->
-
-<div id="header"></div>
+    <div class="sticky top-0 bg-white z-50" id="header"></div>
 <!--header-->
 <div class="relative">
   <img class="absolute top-0 left-0 w-full h-full object-center object-cover" src="./img/page-header-bg.jpg" alt="">
@@ -235,45 +255,6 @@
   </div>
 </div>
 <!--section-->
-<div class="relative text-[#171a1d] hidden xl:flex items-center justify-center">
-  <div class="relative">
-    <div
-      class="font-['Londrina_Outline'] text-[180px] leading-[180px] opacity-[0.05]"
-    >
-      NEWSLETTER
-    </div>
-    <div
-      class="absolute top-0 right-0 bottom-0 left-0 flex items-center justify-center px-[50px]"
-    >
-      <div class="flex-1 bg-white rounded-[70px] flex">
-        <div class="h-[70px] flex-1 flex items-center px-[30px]">
-          Your Email
-        </div>
-        <a
-          href="#"
-          class="group relative text-white h-[50px] rounded-[50px] overflow-hidden mt-[10px] me-[10px]"
-        >
-          <div
-            class="absolute top-0 right-0 bottom-0 left-0 bg-[#ff5100]"
-          ></div>
-          <div
-            class="absolute top-0 left-0 w-[55%] h-0 group-hover:h-full bg-[#171a1d] transition-all duration-[.5s]"
-          ></div>
-          <div
-            class="absolute bottom-0 right-0 w-[55%] h-0 group-hover:h-full bg-[#171a1d] transition-all duration-[.5s]"
-          ></div>
-          <div
-            class="relative h-[50px] px-[35px] font-medium text-[16px] flex items-center"
-          >
-            <div class="me-[5px]">Subscribe</div>
-            <i class="fas fa-paper-plane"></i>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-<!--section-->
 <div class="border-t border-[#c8d3de] hidden xl:flex justify-center">
   <a href="#" class="group relative border-r border-[#c8d3de]">
     <div
@@ -377,6 +358,14 @@
   </a>
 </div>
 <!--section-->
-<!-- footer -->
+ <!-- footer -->
 
-<div id="footer"></div>
+ <div id="footer"></div>
+
+ <script src="./js/swiper-bundle.min.js"></script>
+ <script src="./js/noframework.waypoints.min.js"></script>
+ <script src="./js/inview.min.js"></script>
+ <script src="./js/odometer.min.js"></script>
+ <script src="js/all.js"></script>
+</body>
+</html>
