@@ -4,58 +4,29 @@
 <head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Blog 01</title>
+		<title>Business</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com/">
 		<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&amp;family=Kanit:wght@400;500;600;700&amp;family=Londrina+Outline&amp;display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="./css/all.css">
+		<link rel="stylesheet" href="./css/css/all.css">
 		<link rel="stylesheet" href="./css/swiper-bundle.min.css">
 		<link rel="stylesheet" href="./css/odometer-theme-minimal.min.css">
 		<script src="https://cdn.tailwindcss.com/"></script>
-		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="./css/all.css">
 	</head>
 	<body class="bg-[#f9f8f4] text-[#555555] text-[17px] leading-[27px] font-[Kanit]">
-		<div class="hidden xl:block relative text-white">
-			<div class="absolute top-0 bottom-0 left-0 w-[55%] bg-white"></div>
-			<div class="absolute top-0 bottom-0 right-0 w-[55%] bg-[#171a1d]"></div>
-			<div class="relative max-w-screen-xl px-4 mx-auto bg-[#171a1d]">
-				<div class="h-14 flex items-center justify-between">
-					<div class="flex items-center justify-end">
-						<a href="#">Facebook</a>
-						<span class="bg-[#ff5100] p-0.5 mx-3 rounded"></span>
-						<a href="#">Twitter</a>
-						<span class="bg-[#ff5100] p-0.5 mx-3 rounded"></span>
-						<a href="#">Linkedin</a>
-						<span class="bg-[#ff5100] p-0.5 mx-3 rounded"></span>
-						<a href="#">Instagram</a>
-					</div>
-					<a href="#">Our company has 25+ years' experience!</a>
-					<div class="flex justify-end">
-						<a href="#" class="hover:text-[#ff5100]">Help</a>
-						<div class="mx-[15px]">/</div>
-						<a href="#" class="hover:text-[#ff5100]">Support</a>
-						<div class="mx-[15px]">/</div>
-						<a href="#" class="hover:text-[#ff5100]">Contact</a>
-					</div>
-				</div>
-			</div>
-		</div>
+		
+
 		<!--topbar-->
 		<div class="sticky top-0 bg-white z-50">
 			<div class="max-w-screen-xl mx-auto px-4">
 				<div class="flex items-center justify-between">
-					<a href="index-2.html"><img class="h-[30px]" src="./img/logo.png" alt=""></a>
+					<a href="index.html"><img class="h-[30px]" src="./img/logo.png" alt=""></a>
 					<div class="hidden xl:flex font-medium">
 						<div class="group relative me-8">
-							<a href="index-2.html" class="flex items-center h-[90px]">
+							<a href="index.html" class="flex items-center h-[90px] hover:text-[#ff5100]">
 								<div class="pe-1">Home</div>
-								<div><i class="fa fa-angle-down"></i></div>
 							</a>
-							<div class="group-hover:block hidden absolute right-0 bg-white p-4 shadow w-[180px]">
-								<a href="index-2.html" class="hover:text-[#ff5100]">Home One</a>
-								<div class="border-t my-2"></div>
-								<a href="index2.html" class="hover:text-[#ff5100]">Home Two</a>
-							</div>
 						</div>
 						<div class="group relative me-8">
 							<a href="about.html" class="flex items-center h-[90px] hover:text-[#ff5100]">
@@ -90,12 +61,12 @@
 							</div>
 						</div>
 						<div class="group relative me-8">
-							<a href="blog.html" class="flex items-center h-[90px] text-[#ff5100]">
+							<a href="#" class="flex items-center h-[90px] hover:text-[#ff5100]">
 								<div class="pe-1">Blog</div>
 								<div><i class="fa fa-angle-down"></i></div>
 							</a>
 							<div class="group-hover:block hidden absolute right-0 bg-white p-4 shadow w-[180px]">
-								<a href="blog1.html" class="text-[#ff5100]">Blog 01</a>
+								<a href="blog1.html" class="hover:text-[#ff5100]">Blog 01</a>
 								<div class="border-t my-2"></div>
 								<a href="blog2.html" class="hover:text-[#ff5100]">Blog 02</a>
 								<div class="border-t my-2"></div>
@@ -109,14 +80,11 @@
 						</div>
 					</div>
 					<div class="flex items-center">
-						<a href="#c-offcanvas" data-c-toggle="c-active" class="xl:hidden md:me-[40px] xl:me-0 flex items-center h-[90px] text-[#ff5100] text-[30px]"><i class="fa fa-bars"></i></a>
-						<div class="hidden md:block me-[15px]">
-							<img class="w-[48px]" src="https://raw.githubusercontent.com/uiaextend/jconsultiva/main/chat.svg" alt="">
-						</div>
-						<div class="hidden md:block">
-							<div class="">Have any question?</div>
-							<div class="text-[#171a1d] font-medium">Free + 88 ( 9600 ) 6002</div>
-						</div>
+						<a href="contact.html" class="hidden md:block group relative bg-[#ff5100] text-white rounded overflow-hidden">
+							<div class="absolute top-0 left-0 w-1/2 h-0 group-hover:h-full bg-[#171a1d] transition-all"></div>
+							<div class="absolute bottom-0 right-0 w-1/2 h-0 group-hover:h-full bg-[#171a1d] transition-all"></div>
+							<div class="relative py-4 px-8">Get In Touch</div>
+						</a>
 					</div>
 				</div>
 			</div>
