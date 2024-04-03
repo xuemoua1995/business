@@ -1,3 +1,4 @@
+<script src="/js/language.js"></script>
 <div class="sticky top-0 bg-white z-50">
   <div class="max-w-screen-xl mx-auto px-4">
     <div class="flex items-center justify-between">
@@ -98,9 +99,11 @@
         <div
           class="group-hover:block hidden absolute right-0 bg-white p-4 shadow w-[180px]"
         >
-          <a href="#" class="hover:text-[#ff5100]">English</a>
+          <button class="hover:text-[#ff5100]"  onclick="switchLanguage('en')">English</button>
           <div class="border-t my-2"></div>
-          <a href="#" class="hover:text-[#ff5100]">Lao</a>
+          <button class="hover:text-[#ff5100]" onclick="switchLanguage('la')">Lao</button>
+
+        
         </div>
       </div>
       <div class="flex items-center">
@@ -114,7 +117,7 @@
           <div
             class="absolute bottom-0 right-0 w-1/2 h-0 group-hover:h-full bg-[#171a1d] transition-all"
           ></div>
-          <div class="relative py-4 px-8">Get In Touch</div>
+          <div class="relative py-4 px-8" id="greeting">Get In Touch</div>
         </a>
       </div>
     </div>
