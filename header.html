@@ -1,93 +1,64 @@
-<script src="/js/language.js"></script>
-<div class="sticky top-0 bg-white z-50 py-3">
+
+<!--topbar-->
+<div class="sticky top-0 bg-white z-50">
   <div class="max-w-screen-xl mx-auto px-4">
     <div class="flex items-center justify-between">
       <a href="index.html"
-        ><img class="h-[30px]" src="./img/logo.png" alt=""
-      /></a>
-
+           ><img class="h-[30px]" src="./img/logo.png" alt=""
+         /></a>
       <div class="hidden xl:flex font-medium">
         <div class="group relative me-8">
-          <a
-            href="index.html"
-            class="flex items-center h-[90px] hover:text-[#ff5100]"
-          >
+          <a href="index.html" class="flex items-center h-[90px] text-[#ff5100]">
             <div class="pe-1">Home</div>
           </a>
         </div>
         <div class="group relative me-8">
-          <a
-            href="about.html"
-            class="flex items-center h-[90px] hover:text-[#ff5100]"
-          >
+          <a href="about.html" class="flex items-center h-[90px] hover:text-[#ff5100]">
             <div class="pe-1">About</div>
           </a>
         </div>
         <div class="group relative me-8">
-          <div
-            class="flex cursor-pointer items-center h-[90px] hover:text-[#ff5100]"
-          >
+          <a href="services.html" class="flex items-center h-[90px] hover:text-[#ff5100]">
             <div class="pe-1">Services</div>
             <div><i class="fa fa-angle-down"></i></div>
-          </div>
-          <div
-            class="group-hover:block hidden absolute right-0 bg-white p-4 shadow w-[180px]"
-          >
-            <a href="services.html" class="hover:text-[#ff5100]"
-              >Our Services</a
-            >
+          </a>
+          <div class="group-hover:block hidden absolute right-0 bg-white p-4 shadow w-[180px]">
+            <a href="services.html" class="hover:text-[#ff5100]">Our Services</a>
             <div class="border-t my-2"></div>
-            <a href="service-details.html" class="hover:text-[#ff5100]"
-              >Services Details</a
-            >
+            <a href="service-details.html" class="hover:text-[#ff5100]">Services Details</a>
           </div>
         </div>
         <div class="group relative me-8">
-          <div
-            class="flex cursor-pointer items-center h-[90px] hover:text-[#ff5100]"
-          >
+          <a href="#" class="flex items-center h-[90px] hover:text-[#ff5100]">
             <div class="pe-1">Pages</div>
             <div><i class="fa fa-angle-down"></i></div>
-          </div>
-          <div
-            class="group-hover:block hidden absolute right-0 bg-white p-4 shadow w-[180px]"
-          >
+          </a>
+          <div class="group-hover:block hidden absolute right-0 bg-white p-4 shadow w-[180px]">
             <div class="border-t my-2"></div>
             <a href="pricing.html" class="hover:text-[#ff5100]">Pricing</a>
             <div class="border-t my-2"></div>
             <a href="projects.html" class="hover:text-[#ff5100]">Projects</a>
             <div class="border-t my-2"></div>
-            <a href="project-details.html" class="hover:text-[#ff5100]"
-              >Project Details</a
-            >
+            <a href="project-details.html" class="hover:text-[#ff5100]">Project Details</a>
             <div class="border-t my-2"></div>
             <a href="faqs.html" class="hover:text-[#ff5100]">FAQs</a>
           </div>
         </div>
         <div class="group relative me-8">
-          <div
-            class="flex cursor-pointer items-center h-[90px] hover:text-[#ff5100]"
-          >
+          <a href="#" class="flex items-center h-[90px] hover:text-[#ff5100]">
             <div class="pe-1">Blog</div>
             <div><i class="fa fa-angle-down"></i></div>
-          </div>
-          <div
-            class="group-hover:block hidden absolute right-0 bg-white p-4 shadow w-[180px]"
-          >
+          </a>
+          <div class="group-hover:block hidden absolute right-0 bg-white p-4 shadow w-[180px]">
             <a href="blog1.html" class="hover:text-[#ff5100]">Blog 01</a>
             <div class="border-t my-2"></div>
             <a href="blog2.html" class="hover:text-[#ff5100]">Blog 02</a>
             <div class="border-t my-2"></div>
-            <a href="blog-details.html" class="hover:text-[#ff5100]"
-              >Blog Details</a
-            >
+            <a href="blog-details.html" class="hover:text-[#ff5100]">Blog Details</a>
           </div>
         </div>
         <div class="group relative">
-          <a
-            href="contact.html"
-            class="flex items-center h-[90px] hover:text-[#ff5100]"
-          >
+          <a href="contact.html" class="flex items-center h-[90px] hover:text-[#ff5100]">
             <div class="pe-1">Contact Us</div>
           </a>
         </div>
@@ -114,181 +85,14 @@
           </div>
         </div>
       </div>
-
       <div class="flex items-center">
-        <a
-          href="contact.html"
-          class="hidden md:block group relative bg-[#ff5100] text-white rounded overflow-hidden"
-        >
-          <div
-            class="absolute top-0 left-0 w-1/2 h-0 group-hover:h-full bg-[#171a1d] transition-all"
-          ></div>
-          <div
-            class="absolute bottom-0 right-0 w-1/2 h-0 group-hover:h-full bg-[#171a1d] transition-all"
-          ></div>
+        <a href="#c-offcanvas" data-c-toggle="c-active" class="xl:hidden md:me-[40px] xl:me-0 flex items-center h-[90px] text-[#ff5100] text-[30px]"><i class="fa fa-bars"></i></a>
+        <a href="contact.html" class="hidden md:block group relative bg-[#ff5100] text-white rounded overflow-hidden">
+          <div class="absolute top-0 left-0 w-1/2 h-0 group-hover:h-full bg-[#171a1d] transition-all"></div>
+          <div class="absolute bottom-0 right-0 w-1/2 h-0 group-hover:h-full bg-[#171a1d] transition-all"></div>
           <div class="relative py-4 px-8" id="greeting">Get In Touch</div>
         </a>
       </div>
-
-     <div class="lg:hidden md:hidden">
-       <!-- Hamburger menu button -->
-       <div  class="flex md:hidden lg:hidden ">
-        <button
-          id="toggleBtn"
-          class="text-black focus:outline-none"
-        >
-          <svg
-            class="h-6 w-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16m-7 6h7"
-            ></path>
-          </svg>
-        </button>
-      </div>
-
-      <!-- Menu items (hidden on small screens) -->
-      <div id="navMenu" class="hidden md:flex md:items-center md:space-x-4">
-        <div class="hidden xl:flex font-medium">
-          <div class="group relative me-8">
-            <a
-              href="index.html"
-              class="flex items-center h-[90px] hover:text-[#ff5100]"
-            >
-              <div class="pe-1">Home</div>
-            </a>
-          </div>
-          <div class="group relative me-8">
-            <a
-              href="about.html"
-              class="flex items-center h-[90px] hover:text-[#ff5100]"
-            >
-              <div class="pe-1">About</div>
-            </a>
-          </div>
-          <div class="group relative me-8">
-            <div
-              class="flex cursor-pointer items-center h-[90px] hover:text-[#ff5100]"
-            >
-              <div class="pe-1">Services</div>
-              <div><i class="fa fa-angle-down"></i></div>
-            </div>
-            <div
-              class="group-hover:block hidden absolute right-0 bg-white p-4 shadow w-[180px]"
-            >
-              <a href="services.html" class="hover:text-[#ff5100]"
-                >Our Services</a
-              >
-              <div class="border-t my-2"></div>
-              <a href="service-details.html" class="hover:text-[#ff5100]"
-                >Services Details</a
-              >
-            </div>
-          </div>
-          <div class="group relative me-8">
-            <div
-              class="flex cursor-pointer items-center h-[90px] hover:text-[#ff5100]"
-            >
-              <div class="pe-1">Pages</div>
-              <div><i class="fa fa-angle-down"></i></div>
-            </div>
-            <div
-              class="group-hover:block hidden absolute right-0 bg-white p-4 shadow w-[180px]"
-            >
-              <div class="border-t my-2"></div>
-              <a href="pricing.html" class="hover:text-[#ff5100]">Pricing</a>
-              <div class="border-t my-2"></div>
-              <a href="projects.html" class="hover:text-[#ff5100]">Projects</a>
-              <div class="border-t my-2"></div>
-              <a href="project-details.html" class="hover:text-[#ff5100]"
-                >Project Details</a
-              >
-              <div class="border-t my-2"></div>
-              <a href="faqs.html" class="hover:text-[#ff5100]">FAQs</a>
-            </div>
-          </div>
-          <div class="group relative me-8">
-            <div
-              class="flex cursor-pointer items-center h-[90px] hover:text-[#ff5100]"
-            >
-              <div class="pe-1">Blog</div>
-              <div><i class="fa fa-angle-down"></i></div>
-            </div>
-            <div
-              class="group-hover:block hidden absolute right-0 bg-white p-4 shadow w-[180px]"
-            >
-              <a href="blog1.html" class="hover:text-[#ff5100]">Blog 01</a>
-              <div class="border-t my-2"></div>
-              <a href="blog2.html" class="hover:text-[#ff5100]">Blog 02</a>
-              <div class="border-t my-2"></div>
-              <a href="blog-details.html" class="hover:text-[#ff5100]"
-                >Blog Details</a
-              >
-            </div>
-          </div>
-          <div class="group relative">
-            <a
-              href="contact.html"
-              class="flex items-center h-[90px] hover:text-[#ff5100]"
-            >
-              <div class="pe-1">Contact Us</div>
-            </a>
-          </div>
-          <div class="group relative me-8">
-            <div
-              class="flex cursor-pointer items-center h-[90px] hover:text-[#ff5100] space-x-2"
-            >
-              <div>
-                <img class="w-6 h-5" src="/img/language.png" alt="" />
-              </div>
-              <div class="pe-1">Language</div>
-              <div><i class="fa fa-angle-down"></i></div>
-            </div>
-            <div
-              class="group-hover:block hidden absolute right-0 bg-white p-4 shadow w-[180px]"
-            >
-              <button
-                class="hover:text-[#ff5100]"
-                onclick="switchLanguage('en')"
-              >
-                English
-              </button>
-              <div class="border-t my-2"></div>
-              <button
-                class="hover:text-[#ff5100]"
-                onclick="switchLanguage('la')"
-              >
-                Lao
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex items-center">
-          <a
-            href="contact.html"
-            class="hidden md:block group relative bg-[#ff5100] text-white rounded overflow-hidden"
-          >
-            <div
-              class="absolute top-0 left-0 w-1/2 h-0 group-hover:h-full bg-[#171a1d] transition-all"
-            ></div>
-            <div
-              class="absolute bottom-0 right-0 w-1/2 h-0 group-hover:h-full bg-[#171a1d] transition-all"
-            ></div>
-            <div class="relative py-4 px-8" id="greeting">Get In Touch</div>
-          </a>
-        </div>
-      </div>
-     </div>
-
-
     </div>
   </div>
 </div>
@@ -299,3 +103,10 @@
     document.getElementById('navMenu').classList.toggle('hidden');
   });
 </script>
+
+<script src="/js/language.js"></script>
+<script src="./js/swiper-bundle.min.js"></script>
+<script src="./js/noframework.waypoints.min.js"></script>
+<script src="./js/inview.min.js"></script>
+<script src="./js/odometer.min.js"></script>
+<script src="./js/all.js"></script>
