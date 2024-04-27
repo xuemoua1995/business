@@ -93,7 +93,7 @@
           >
             <div>
               <img
-                class="w-6 h-5 hover:text-[#ff5100]"
+                class="w-5 h-4 hover:text-[#ff5100]"
                 src="/img/language.png"
                 alt=""
               />
@@ -119,7 +119,7 @@
           <div
             class="absolute bottom-0 right-0 w-1/2 h-0 group-hover:h-full bg-[#171a1d] transition-all"
           ></div>
-          <div class="relative py-4 px-8" id="greeting">Get In Touch</div>
+          <div class="relative py-4 px-8">Get In Touch</div>
         </a>
       </div>
     </div>
@@ -128,17 +128,18 @@
 <!-- start google translate all webpage -->
 <script type="text/javascript">
   function googleTranslateElementInit() {
-    new google.translate.TranslateElement(
-      { pageLanguage: "en" },
-      "google_translate_element"
-    );
-
-    // Remove the "Powered by Google Translate" attribution
-    setTimeout(function () {
-      document.querySelector(".goog-logo-link").style.display = "none";
-    }, 1000);
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  
+    var $googleDiv = $("#google_translate_element .skiptranslate");
+    var $googleDivChild = $("#google_translate_element .skiptranslate div");
+    $googleDivChild.next().remove();
+  
+    $googleDiv.contents().filter(function(){
+      return this.nodeType === 3 && $.trim(this.nodeValue) !== '';
+    }).remove();
+  
   }
-</script>
+  </script>
 
 <script
   type="text/javascript"
