@@ -128,7 +128,7 @@
             </div>
             <div class="pl-6">
               <div
-                class="w-full flex flex-row cursor-pointer justify-center items-center h-[90px] hover:text-[#ff5100] space-x-2"
+                class="w-full flex flex-row cursor-pointer justify-center items-center h-[90px] space-x-2"
               >
                 <div>
                   <img
@@ -137,7 +137,26 @@
                     alt=""
                   />
                 </div>
-                <div id="google_translate_element"></div>
+                <div class="group relative me-8">
+                  <a
+                    href="#"
+                    class="flex items-center h-[90px] hover:text-[#ff5100]"
+                  >
+                    <div class="pe-1">Language</div>
+                    <div><i class="fa fa-angle-down"></i></div>
+                  </a>
+                  <div
+                    class="group-hover:block hidden absolute right-0 bg-white p-4 shadow w-[180px]"
+                  >
+                    <a href="#" class="hover:text-[#ff5100]"
+                      >English</a
+                    >
+                    <div class="border-t my-2"></div>
+                    <a href="#" class="hover:text-[#ff5100]"
+                      >Lao</a
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -511,32 +530,7 @@
         </div>
       </div>
     </div>
-    <!-- start google translate all webpage -->
-    <script type="text/javascript">
-      function googleTranslateElementInit() {
-        new google.translate.TranslateElement(
-          { pageLanguage: "en" },
-          "google_translate_element"
-        );
-
-        var $googleDiv = $("#google_translate_element .skiptranslate");
-        var $googleDivChild = $("#google_translate_element .skiptranslate div");
-        $googleDivChild.next().remove();
-
-        $googleDiv
-          .contents()
-          .filter(function () {
-            return this.nodeType === 3 && $.trim(this.nodeValue) !== "";
-          })
-          .remove();
-      }
-    </script>
-
-    <script
-      type="text/javascript"
-      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
-    ></script>
-    <!-- end google translate all webpage -->
+   
 
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/noframework.waypoints.min.js"></script>
